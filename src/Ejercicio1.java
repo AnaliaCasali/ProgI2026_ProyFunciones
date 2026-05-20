@@ -39,6 +39,13 @@ public class Ejercicio1 {
     //Main.sumar(5,4);
     Funciones funciones=new Funciones();
     int nro= funciones.leerEntero();
+
+   //
+ // otra forma de buscar el maximo y minimo es ordenando el array y tomando el primer y ultimo elemento
+    Arrays.sort(temperaturasDiarias);
+  int min= temperaturasDiarias[0];
+  int max= temperaturasDiarias[6];
+
   }
 
   // FUNCION RECURSIVA: LA QUE SE LLAMA A SI MISMA
